@@ -1,6 +1,11 @@
-def invert_array(arr, N):
-   New = arr[:N:]
-   Reversed = New[::-1]
-   return (Reversed)
-a=[1,2,3,4,5]
-print(invert_array(a,0))
+n = int(input())
+d = dict()
+for i in range(n):
+    s = input().split()
+    d[i+1] = s[0]
+    d[-i-1] = s[1]
+word = input()
+print(d)
+for k in range(-len(d)-1, len(d)+2):
+    if word == d[k]:
+        print(d[-k])
