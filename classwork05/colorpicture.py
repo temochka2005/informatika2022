@@ -1,7 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
-np.random.seed(42)
 data = np.random.normal(5, size=(10000,))
 x = data[:5000]
 y = data[5000:]
