@@ -7,7 +7,7 @@ plt.plot(x, y, 'bs')
 plt.plot(x,y)
 plt.grid('visible', which='major', axis='both', alpha=1)
 plt.grid('visible', which='minor', axis='both', alpha=0.5)
-plt.ylabel("Y")
+plt.ylabel("$y=sin(x)x^2 $ ")
 plt.xlabel(r"X")
 
 plt.show()
