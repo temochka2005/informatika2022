@@ -1,8 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.linspace(0, 100, 10)
-y = (x**(-2))*np.sin(x*np.pi/180)
+x = np.arange(0, 100, 10,float)
+y = (x**(-2))*np.sin(x)
 plt.plot(x, y, 'bs')
 plt.plot(x,y)
 plt.grid('visible', which='major', axis='both', alpha=1)
