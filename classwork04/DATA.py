@@ -34,6 +34,7 @@ plt.grid(which='major', axis='both', alpha=1)
 plt.grid(which='minor', axis='both', alpha=0.5)
 
 
+
 x, y = fake_data_generator(student)
 plt.plot(x, y)
 deltaX = [(x[i+1]-x[i])/2 if i!=len(x)-1 else (x[i]-x[i-1])/2 for i in range(len(x))]
