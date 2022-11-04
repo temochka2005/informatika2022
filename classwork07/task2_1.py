@@ -4,4 +4,4 @@ diamonds = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/m
 print(diamonds)
 
 mask = (diamonds['x'] > 5) | (diamonds['y'] > 5) | (diamonds['z'] > 5)
-print(diamonds[mask][["x","y","z"]])
+print(diamonds[mask][["x","y","z"]])d
