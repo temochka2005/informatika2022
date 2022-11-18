@@ -21,7 +21,7 @@ GAME_COLORS = [RED, BLUE, YELLOW, GREEN, MAGENTA, CYAN]
 
 WIDTH = 800
 HEIGHT = 600
-# Что значит 'Shadows name 'screen' from outer scope'? Почему подчеркивает screen, event и bull?
+
 
 
 class Ball:
